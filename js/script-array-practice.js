@@ -1,4 +1,6 @@
 //STEP 1
+let favMovies = ['Glory', ' Brave Heart', ' Wonder Woman', ' Rambo ', ' Spirited Away']
+console.log(favMovies[1])
 
 //STEP 2
 
