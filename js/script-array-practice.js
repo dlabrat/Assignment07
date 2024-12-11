@@ -140,7 +140,7 @@ let movie = movies.reverse().pop()
 console.log(movie)
 */
 //STEP 11
-let fmovies =[]
+/* let fmovies =[]
 fmovies[0] = 'Glory'
 fmovies[1] = 'Brave Heart'
 fmovies[2] = 'Wonder Woman'
@@ -160,12 +160,43 @@ console.log('First movie: ')
 movies = movies.sort()
 let movie = movies.reverse().shift()                                                                                                      
 console.log(movie)
-
+*/
 //STEP 12
+/* let fmovies =[]
+fmovies[0] = 'Glory'
+fmovies[1] = 'Brave Heart'
+fmovies[2] = 'Wonder Woman'
+fmovies[3] = 'Rambo'
+fmovies[4] = 'Spirited Away'
+fmovies[5] = 'A Shot in the Dark'
+fmovies[6] = 'Jurassic Park'
 
+let leastFavMovies =[]
+leastFavMovies[0] = 'Coctail'
+leastFavMovies[1] = 'Scary Movie'
+leastFavMovies[2] = 'The Smurfs'
+//join with concat 
+let movies = fmovies.concat(leastFavMovies)
+let indices = leastFavMovies.map(movie => movies.indexOf(movie));
+let likedMovies = ['Inception', 'Spider-Man: Into The Spider-Verse', 'Howl\'s Moving Castle'];
+//replace those indices with good ones
+indices.forEach((index, i) => {
+    if (index !== -1) { 
+        movies[index] = likedMovies[i];
+    }
+});
+console.log('All movies: ')
+console.log(movies)
+*/
 //STEP 13
+let movies =[['Glory',1], ['Brave Heart',2], ['Wonder Woman',3],
+['Rambo',4], ['Spirited Away',5], ['A Shot in the Dark',6], ['Jurassic Park',7]]
+
+let movieNames = movies.filter(movie => typeof movie[0] === 'string').map(movie => movie[0]);
+console.log('Movie Names:', movieNames);
 
 //STEP 14
+//time crunch 
 
 //STEP 15
 
