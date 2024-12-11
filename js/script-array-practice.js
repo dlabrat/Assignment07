@@ -112,17 +112,54 @@ leastFavMovies[1] = 'Scary Movie'
 leastFavMovies[2] = 'The Smurfs'
 //join with concat 
 let movies = fmovies.concat(leastFavMovies)
-console.log('All movies in lists: \n')
-//display reverse sorted !!!!!!!
-for (let movie in movies) {
-	console.log(movies[movie])
-}
+console.log('All movies: \n')
+//display reverse sorted 
+movies = movies.sort()
+console.log(movies.reverse())
 */
-
 //STEP 10
+/* let fmovies =[]
+fmovies[0] = 'Glory'
+fmovies[1] = 'Brave Heart'
+fmovies[2] = 'Wonder Woman'
+fmovies[3] = 'Rambo'
+fmovies[4] = 'Spirited Away'
+fmovies[5] = 'A Shot in the Dark'
+fmovies[6] = 'Jurassic Park'
 
-
+let leastFavMovies =[]
+leastFavMovies[0] = 'Coctail'
+leastFavMovies[1] = 'Scary Movie'
+leastFavMovies[2] = 'The Smurfs'
+//join with concat 
+let movies = fmovies.concat(leastFavMovies)
+console.log('Last movie: ')
+//display reverse sorted 
+movies = movies.sort()
+let movie = movies.reverse().pop()                                                                                                      
+console.log(movie)
+*/
 //STEP 11
+let fmovies =[]
+fmovies[0] = 'Glory'
+fmovies[1] = 'Brave Heart'
+fmovies[2] = 'Wonder Woman'
+fmovies[3] = 'Rambo'
+fmovies[4] = 'Spirited Away'
+fmovies[5] = 'A Shot in the Dark'
+fmovies[6] = 'Jurassic Park'
+
+let leastFavMovies =[]
+leastFavMovies[0] = 'Coctail'
+leastFavMovies[1] = 'Scary Movie'
+leastFavMovies[2] = 'The Smurfs'
+//join with concat 
+let movies = fmovies.concat(leastFavMovies)
+console.log('First movie: ')
+//display reverse sorted 
+movies = movies.sort()
+let movie = movies.reverse().shift()                                                                                                      
+console.log(movie)
 
 //STEP 12
 
